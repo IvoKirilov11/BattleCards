@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{589B21E3-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sus.MvsFrameworkTest", "Sus.MvsFrameworkTest\Sus.MvsFrameworkTest.csproj", "{EE34469B-D714-4FEB-A1FE-7AE154DE20D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleCards", "BattleCards\BattleCards.csproj", "{63C82A86-E097-4A21-8D20-B2CD4D2BCD25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleCards", "BattleCards\BattleCards.csproj", "{63C82A86-E097-4A21-8D20-B2CD4D2BCD25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suls", "Apps\Suls\Suls.csproj", "{593B61BD-FB66-4E7D-93F6-014BFA35C204}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +37,17 @@ Global
 		{63C82A86-E097-4A21-8D20-B2CD4D2BCD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63C82A86-E097-4A21-8D20-B2CD4D2BCD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63C82A86-E097-4A21-8D20-B2CD4D2BCD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593B61BD-FB66-4E7D-93F6-014BFA35C204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593B61BD-FB66-4E7D-93F6-014BFA35C204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593B61BD-FB66-4E7D-93F6-014BFA35C204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593B61BD-FB66-4E7D-93F6-014BFA35C204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{63C82A86-E097-4A21-8D20-B2CD4D2BCD25} = {589B21E3-A810-4BFF-8477-39C69992EDE7}
+		{593B61BD-FB66-4E7D-93F6-014BFA35C204} = {589B21E3-A810-4BFF-8477-39C69992EDE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90E02AF3-E418-4485-9EF1-64A73444DEE6}
